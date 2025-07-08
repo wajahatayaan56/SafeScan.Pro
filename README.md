@@ -8,17 +8,30 @@ SafeScan.Pro is a full-stack application designed to detect phishing websites us
 ## 📂 Project Structure
 
 SafeScan.Pro/
-├── backend/ # Python backend (Flask/FastAPI/etc.)
-│ ├── app.py
-│ ├── model/ # ML models (e.g., .pkl files - not uploaded)
-│ └── data/ # CSV feature files (ignored in Git)
-├── frontend/ # Node.js or React-based UI
-│ ├── public/
-│ ├── src/
-│ └── package.json
-├── .gitignore
-└── README.md
-
+│
+├── backend/                           # Python backend (API & ML)
+│   ├── app.py                         # Main backend script
+│   ├── requirements.txt               # Python dependencies
+│   ├── model/                         # ML models (.pkl files) (gitignored)
+│   │   └── random_forest_model.pkl
+│   ├── data/                          # CSVs / extracted features (gitignored)
+│   │   ├── clean_data.csv
+│   │   └── extracted_features.csv
+│   └── utils/                         # Helper functions (optional)
+│       └── feature_extraction.py
+│
+├── frontend/                          # React or Node.js frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── components/
+│   ├── package.json                   # npm dependencies
+│   └── .env                           # API URLs or secrets (gitignored)
+│
+├── .gitignore                         # Files/folders to exclude from git
+├── README.md                          # Project description and setup
+└── .gitattributes                     # Optional - for Git LFS (large files)
 
 
 ---
