@@ -9,29 +9,29 @@ SafeScan.Pro is a full-stack application designed to detect phishing websites us
 
 SafeScan.Pro/
 │
-├── backend/                           # Python backend (API & ML)
-│   ├── app.py                         # Main backend script
-│   ├── requirements.txt               # Python dependencies
-│   ├── model/                         # ML models (.pkl files) (gitignored)
+├── backend/                         # Python backend (ML & API)
+│   ├── app.py                       # Main backend application
+│   ├── requirements.txt             # Python dependencies
+│   ├── model/                       # Pretrained ML model (Git ignored)
 │   │   └── random_forest_model.pkl
-│   ├── data/                          # CSVs / extracted features (gitignored)
+│   ├── data/                        # CSV feature files (Git ignored)
 │   │   ├── clean_data.csv
 │   │   └── extracted_features.csv
-│   └── utils/                         # Helper functions (optional)
+│   └── utils/                       # Optional: helper functions
 │       └── feature_extraction.py
 │
-├── frontend/                          # React or Node.js frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── components/
-│   ├── package.json                   # npm dependencies
-│   └── .env                           # API URLs or secrets (gitignored)
+├── frontend/                        # Frontend (React or Node)
+│   ├── public/                      # Static files
+│   ├── src/                         # Source code
+│   │   ├── App.js                   # Main React component
+│   │   ├── index.js                 # Entry point
+│   │   └── components/             # Reusable UI components
+│   ├── package.json                 # npm dependencies
+│   └── .env                         # Environment variables (Git ignored)
 │
-├── .gitignore                         # Files/folders to exclude from git
-├── README.md                          # Project description and setup
-└── .gitattributes                     # Optional - for Git LFS (large files)
+├── .gitignore                       # Files to ignore in Git
+├── README.md                        # Project overview and instructions
+└── .gitattributes                   # Optional: for Git LFS or file rules
 
 
 ---
