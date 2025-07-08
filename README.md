@@ -67,10 +67,6 @@ git clone https://github.com/wajahatayaan56/SafeScan.Pro.git
 cd SafeScan.Pro
 
 🔧 Backend Setup
-bash
-Copy
-Edit
-
 cd backend
 python -m venv venv
 .\venv\Scripts\activate
@@ -78,9 +74,6 @@ pip install -r requirements.txt
 python app.py
 
  Frontend Setup
-bash
-Copy
-Edit
 cd ../frontend
 npm install
 npm start
