@@ -6,6 +6,7 @@ SafeScan.Pro is a full-stack application designed to detect phishing websites us
 ---
 
 ## 📂 Project Structure
+```bash
 SafeScan.Pro/
 │
 ├── backend/                         # Python backend (ML & API)
@@ -31,8 +32,7 @@ SafeScan.Pro/
 ├── .gitignore                       # Files to ignore in Git
 ├── README.md                        # Project overview and instructions
 └── .gitattributes                   # Optional: for Git LFS or file rules
-
----
+```
 
 ## 🚀 Features
 
